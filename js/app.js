@@ -352,6 +352,12 @@ function LoadingSpinner({ language }) {
 }
 // Results Display Component (Continuing from where you left off)
 function ResultsDisplay({ data, language, onPresentationMode }) {
+    useEffect(() => {
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    }, [data]);
+
     return (
         <div className="space-y-8">
             {/* Action Bar */}
@@ -819,6 +825,12 @@ function Footer({ language }) {
 
 // Presentation Mode Component
 function PresentationMode({ data, language, currentSlide, onSlideChange, onClose }) {
+    useEffect(() => {
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    }, [data, currentSlide]);
+
     const slides = [
         {
             title: t('presentationSlide1', language),
