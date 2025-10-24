@@ -1,6 +1,6 @@
 // Configuration File
 const CONFIG = {
-    APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyRF0HV855inyb0YTv5GxpC9l0I8cMGzS5172qPr_70LcZcriMAoBIh9vzMjavcfv8y/exec",
+    APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyRyTn_vxlqoTlGE86Yurjb76KBGe5WZutjjhDNz-IriuQMbHEqS1agVMKZdrYMzk9X/exec",
     
     // Logo URLs
     LOGO_EAND: "https://ik.imagekit.io/xtj3m9hth/image-remove1bg-preview%20(3).png?updatedAt=1761220721716",
